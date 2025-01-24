@@ -1,0 +1,1 @@
+Este é um repositório bem simples, criado apenas com um objetivo, armazenar os códigos e imagem do meu projeto de site de receitas. O projeto é bem simples, mas me deixa com muito orgulho por ser o primeiro e já ter integração entre github e vs code com git.
