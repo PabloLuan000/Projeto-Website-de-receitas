@@ -1,0 +1,779 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ParteDeCima { /*BACKGROUND DO CABEÇALHO*/
+    background-color: rgba(255, 136, 0, 0.582);
+    width: 100%; 
+    height: 170px;
+}
+
+.ImagemLogo { /*IMAGEM DA LOGO NO CABEÇALHO*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.NossaMissao { /*BACKGROUND DA NOSSA MISSÃO*/
+    width: 100%;
+    height: 486px;
+    background-color: rgba(255, 145, 0, 0.452);
+}
+
+.Titulo { /*TITULO DA NOSSA MISSÃO*/
+    position: absolute;
+    top: 188px;
+    left: 540px;
+    font-size: 45px;
+    font-family: tahoma;
+    font-style: italic;
+    color: rgb(75, 64, 15);
+}
+
+.ParagrafoNossaMissao { /*PARAGRAFO DA NOSSA MISSÃO*/
+    position: absolute;
+    top: 400px;
+    left: 25px;
+    font-family: tahoma;
+    font-size: 25px;
+}
+
+.ImagemGarfoEFaca { /*IMAGEM DE FUNDO DA NOSSA MISSÃO*/
+    opacity: 20%;
+    position: absolute;
+    top: 437px;
+    left: 630px;
+    transform: scale(6.8)
+}
+
+.PrincipaisPontos { /*PRINCIPAIS PONTOS DA NOSSA MISSÃO*/
+    font-size: 33px;
+    position: absolute;
+    top: 290px;
+    left: 360px;
+}
+
+.TituloRecomendados { /*TITULO DA RECOMENDADOS*/
+    color: rgb(75, 64, 15);
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 45px;
+    position: absolute;
+    top: 675px;
+    left: 535px;
+}
+
+.BotaoRecomendados { /*BOTÃO PARA IR PARA RECOMENDADOS*/
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    left: 1190px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 140px;
+    height: 28px;
+    transition: scale 0.1s, transform 0.1s;
+    text-align: center;
+}
+
+.BotaoRecomendados:hover { /*BOTÃO PARA IR PARA RECOMENDADOS*/
+    transform: scale(1.1);
+}
+
+.ImagemRecomendado1 { /*PRIMEIRA IMAGEN DE RECEITA RECOMENDADA*/
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    border-radius: 20%;
+}
+
+.LegendaDaImagemRecomendada1 { /*LEGENDA DA PRIMEIRA IMAGEM RECOMENDADA*/
+    color: black;
+    position: absolute;
+    top: 1105px;
+    left: 50px;
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+.ImagemRecomendado2 { /*SEGUNDA IMAGEM DE RECEITA RECOMENDADA*/
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 520px;
+    border-radius: 20%;
+}
+
+.LegendaDaImagemRecomendada2 { /*LEGENDA DA SEGUNDA IMAGEM RECOMENDADA*/
+    color: black;
+    position: absolute;
+    top: 1105px;
+    left: 555px;
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+.ImagemRecomendado3 { /*TERCEIRA IMAGEM DE RECEITAS RECOMENDADAS*/
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 1000px;
+    border-radius: 20%;
+}
+
+.LegendaDaImagemRecomendada3 { /*LEGENDA DA TERCEIRA IMAGEM RECOMENDADA*/
+    color: black;
+    position: absolute;
+    top: 1105px;
+    left: 1001px;
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+.ParteFinal { /*PARTE FINAL DO HOME DO SITE*/
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    top: 2351px;
+}
+
+.BotaoInstagram { /*BOTAO PARA IR PARA O INSTAGRAM*/
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 1220;
+    left: 700px;
+}
+
+.EscritaDaParteFinal { /*ESCRITA DA PARTE FINAL*/
+    font-size: 20px;
+    font-family: tahoma;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.BotaoCategoriasCarnes { /*BOTAO DE CATEGORIAS DE CARNES*/
+    font-family: tahoma;
+    font-size: 22px;
+   text-decoration: none;
+    position: absolute;
+    top: 137px;
+    left: 640px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.BotaoCategoriasMassas { /*BOTAO DE CATEGORIAS DE MASSAS*/
+    font-family: tahoma;
+    font-size: 22px;
+    text-decoration: none;
+    position: absolute;
+    top: 137px;
+    left: 555px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.BotaoCategoriasDoces { /*BOTAO DE CATEGORIAS DE DOCES*/
+    font-family: tahoma;
+    font-size: 22px;
+    text-decoration: none;
+    position: absolute;
+    top: 137px;
+    left: 725px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.BotaoCategoriasBolos { /*BOTAO DE CATEGORIAS DE BOLOS*/
+    font-family: tahoma;
+    font-size: 22px;
+    text-decoration: none;
+    position: absolute;
+    top: 137px;
+    left: 482px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.BotaoCategoriasTortas { /*BOTAO DE CATEGORIAS DE TORTAS*/
+    font-family: tahoma;
+    font-size: 22px;
+    text-decoration: none;
+    position: absolute;
+    top: 137px;
+    left: 800px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.BotaoCategoriasLanches { /*BOTAO DE CATEGORIAS DE LANCHES*/
+    font-family: tahoma;
+    font-size: 22px;
+    text-decoration: none;
+    position: absolute;
+    top: 137px;
+    left: 390px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.BotaoCategoriasBebidas { /*BOTAO DE CATEGORIAS DE BEBIDAS*/
+    font-family: tahoma;
+    font-size: 22px;
+    text-decoration: none;
+    position: absolute;
+    top: 137px;
+    left: 875px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.BotaoCategoriasCarnes:hover { /*HOVER DO BOTÃO DE CATEGORIAS DE CARNE*/
+    transform: scale(1.22);
+    color: black;
+}
+
+.BotaoCategoriasMassas:hover { /*HOVER DO BOTÃO DE CATEGORIAS DE MASSAS*/
+    transform: scale(1.22);
+    color: black;
+}
+
+.BotaoCategoriasDoces:hover { /*HOVER DO BOTÃO DE CATEGORIAS DE DOCES*/
+    transform: scale(1.22);
+    color: black;
+}
+
+.BotaoCategoriasBolos:hover { /*HOVER DO BOTÃO DE CATEGORIAS DE BOLOS*/
+    transform: scale(1.22);
+    color: black;
+}
+
+.BotaoCategoriasTortas:hover { /*HOVER DO BOTÃO DE CATEGORIAS DE TORTAS*/
+    transform: scale(1.22);
+    color: black;
+}
+
+.BotaoCategoriasLanches:hover { /*HOVER DO BOTÃO DE CATEGORIAS DE SALADAS*/
+    transform: scale(1.22);
+    color: black;
+}
+
+.BotaoCategoriasBebidas:hover { /*HOVER DO BOTÃO DE CATEGORIAS DE BEBIDAS*/
+    transform: scale(1.22);
+    color: black;
+}
+
+.CategoriasBolos { /* PARTE DOS BOLOS*/
+    position: absolute;
+    top: 1300px;
+    background-color:  rgba(255, 136, 0, 0.582);
+    width: 100%;
+    height: 150px;
+}
+
+.TituloBolos { /*TITULO DOS BOLOS*/
+    color: rgb(75, 64, 15);
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 45px;
+    position: absolute;
+    left: 600px;
+}
+
+.BoloDeCenoura { /*BOLO DE CENOURA*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 980px;
+    width: 195px;
+    height: 33px;
+    text-align: center;
+}
+
+.BoloDeChocolate { /*BOLO DE CHOCOLATE*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 660px;
+    width: 210px;
+    height: 33px;
+    text-align: center;
+}
+
+.Brownie { /*BROWNIE*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 460px;
+    text-align: center;
+    width: 105px;
+    height: 33px;
+}
+
+.BoloDeFubá { /*BOLO DE FUBÁ*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 210px;
+    text-align: center;
+    width: 155px;
+    height: 33px;
+}
+
+.CategoriasLanches { /*PARTE DA CATEGORIA DE LANCHES*/
+    position: absolute;
+    top: 1450px;
+    background-color:  rgba(255, 136, 0, 0.466);
+    width: 100%;
+    height: 150px;
+}
+
+.TituloLanches { /*TITULO DOS LANCHES*/
+    color: rgb(75, 64, 15);
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 45px;
+    position: absolute;
+    left: 575px;
+}
+
+.BolinhoDeChuva { /*BOLINHO DE CHUVA*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 980px;
+    width: 208px;
+    height: 33px;
+    text-align: center;
+}
+
+.PipocaDoce { /*PIPOCA DOCE*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    text-align: center;
+    width: 145px;
+    height: 33px;
+}
+
+.EmpadãoDeFrango { /*EMPADÃO DE FRANGO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    text-align: center;
+    width: 230px;
+    height: 33px;
+}
+
+.BoloSalgadoDeLentilha { /*BOLO SALGADO DE LENTILHA*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 640px;
+    width: 300px;
+    height: 33px;
+    text-align: center;
+}
+
+.CategoriasMassas { /*PARTE DA CATEGORIA DE MASSAS*/
+    position: absolute;
+    top: 1600px;
+    background-color:  rgba(255, 136, 0, 0.582);
+    width: 100%;
+    height: 150px;
+}
+
+.TituloMassas { /*TITULO DAS MASSAS*/
+    color: rgb(75, 64, 15);
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 45px;
+    position: absolute;
+    left: 588px;
+}
+
+.PanquecaAmericana { /*PANQUECA AMERICANA*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    text-align: center;
+    width: 235px;
+    height: 33px;
+}
+
+.PãoCaseiro { /*PÃO CASEIRO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    text-align: center;
+    width: 140px;
+    height: 33px;
+}
+
+.LasanhaDeCarneMoida { /*LASANHA DE CARNE MOIDA*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 590px;
+    text-align: center;
+    width: 281px;
+    height: 33px;
+}
+
+.MolhoPestoDePistache { /*MOLHO PESTO DE PISTACHE*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 930px;
+    text-align: center;
+    width: 282px;
+    height: 33px;
+}
+
+.CategoriasCarnes { /*PARTE DA CATEGORIA DE CARNES*/
+    position: absolute;
+    top: 1750px;
+    background-color:  rgba(255, 136, 0, 0.466);
+    width: 100%;
+    height: 150px;
+}
+
+.TituloCarnes { /*TITULO DAS CARNES*/
+    color: rgb(75, 64, 15);
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 45px;
+    position: absolute;
+    left: 588px;
+}
+
+.StrogonoffDeCarne { /*STROGONOFF DE CARNES*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    text-align: center;
+    width: 230px;
+    height: 33px;
+}
+
+.YakissobaDaCasa { /*YAKISSOBA DA CASA*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 410px;
+    text-align: center;
+    width: 213px;
+    height: 33px;
+}
+
+.Almôndegas { /*ALMÔNDEGAS*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    text-align: center;
+    width: 150px;
+    height: 33px;
+}
+
+.HambúrguerCaseiro { /*HAMBÚRGER CASEIRO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 920px;
+    text-align: center;
+    width: 238px;
+    height: 33px;
+}
+
+.CategoriasDoces { /*PARTE DA CATEGORIA DE DOCES*/
+    position: absolute;
+    top: 1900px;
+    background-color:  rgba(255, 136, 0, 0.582);
+    width: 100%;
+    height: 150px;
+}
+
+.TituloDoces { /*TITULO DOS DOCES*/
+    color: rgb(75, 64, 15);
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 45px;
+    position: absolute;
+    left: 595px;
+}
+
+.PudimDeLeiteCondensado { /*PUDIM DE LEITE CONDENSADO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    text-align: center;
+    width: 310px;
+    height: 33px;
+}
+
+.Brigadeiro { /*BRIGADEIRO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 490px;
+    text-align: center;
+    width: 130px;
+    height: 33px;
+}
+
+.MousseDeMaracujá { /*MOUSSE DE MARACUJÁ*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 690px;
+    text-align: center;
+    width: 240px;
+    height: 33px;
+}
+
+.PalhaItaliana { /*PALHA ITALIANA*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+    text-align: center;
+    width: 160px;
+    height: 33px;
+}
+
+.CategoriasTortas { /*PARTE DA CATEGORIA DE TORTAS*/
+    position: absolute;
+    top: 2050px;
+    background-color:  rgba(255, 136, 0, 0.466);
+    width: 100%;
+    height: 150px;
+}
+
+.TituloTortas { /*TITULO DAS TORTAS*/
+    color: rgb(75, 64, 15);
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 45px;
+    position: absolute;
+    left: 600px;
+}
+
+.Brownietone { /*BROWNIETONE*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    text-align: center;
+    width: 155px;
+    height: 33px;
+}
+
+.TortaDeBanana { /*TORTA DE BANANA*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 410px;
+    text-align: center;
+    width: 190px;
+    height: 33px;
+}
+
+.TortaDeFrango { /*TORTA DE FRANGO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 690px;
+    text-align: center;
+    width: 185px;
+    height: 33px;
+}
+
+.TortaDeLimão { /*TORTA DE LIMÃO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 980px;
+    text-align: center;
+    width: 175px;
+    height: 33px;
+}
+
+.CategoriasBebidas { /*PARTE DA CATEGORIA DE BEBIDAS*/
+    position: absolute;
+    top: 2200px;
+    background-color:  rgba(255, 136, 0, 0.582);
+    width: 100%;
+    height: 150px;
+}
+
+.TituloBebidas { /*TITULO DAS BEBIDAS*/
+    color: rgb(75, 64, 15);
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 45px;
+    position: absolute;
+    left: 600px;
+}
+
+.MoscowMule { /*MOSCOW MULE*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    text-align: center;
+    width: 171px;
+    height: 33px;
+}
+
+.ChocolateQuenteCremoso { /*CHOCOLATE QUENTE CREMOSO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    text-align: center;
+    width: 306px;
+    height: 33px;
+}
+
+.PinkLemonade { /*PINK LEMONADE*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 750px;
+    text-align: center;
+    width: 175px;
+    height: 33px;
+}
+
+.CappuccinoCaseiro { /*CAPPUCCINO CASEIRO*/
+    font-size: 28px;
+    font-style: none;
+    color: black;
+    background-color:  rgba(170, 93, 4, 0.158);
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+    text-align: center;
+    width: 230px;
+    height: 33px;
+}
